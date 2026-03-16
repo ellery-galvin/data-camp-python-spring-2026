@@ -16,7 +16,7 @@ conda create -n intro-python python=3.11 \
     -y
 
 # Activate the environment and register it as a Jupyter kernel
-source activate intro-python
+conda activate intro-python
 python -m ipykernel install --user --name intro-python --display-name "Intro to Python"
 
 # Make conda activate work in future terminal sessions
